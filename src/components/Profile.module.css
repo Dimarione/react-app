@@ -1,0 +1,14 @@
+.profile_img {
+    height: 300px;
+    width: 600px;
+}
+
+.content {
+    grid-area: content;
+    background: yellow;
+}
+.posts_item {
+    color: green;
+    font-weight: bold;
+}
+

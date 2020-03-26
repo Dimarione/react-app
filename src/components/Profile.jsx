@@ -1,26 +1,29 @@
 import React from 'react';
+import classes from './Profile.module.css'
 
 const Profile = () => {
     return (
-        <div className='content'>
+        <div className = {classes.content}>
 
-            <div className='image-2'>Image 2</div>
-            <div className='person'></div>
+            <img className = {classes.profile_img} src = 'https://klike.net/uploads/posts/2019-01/medium/1547365386_2.jpg'
+                 alt = ''/>
+            {/*<div className = 'person'></div>*/}
 
             <div>
-                <div className='my-post'>
+                <div className = {classes.my_post}>
                     My post
-                    <div className='new-post'>
+                    <div className = {classes.new_post}>
                         New post
                     </div>
-                    <div>
-                        <div>
+
+                    <div className= {classes.posts}>
+                        <div className= {classes.posts_item}>
                             Post 1
                         </div>
-                        <div>
+                        <div className={classes.posts_item}>
                             Post 2
                         </div>
-                        <div>
+                        <div className={classes.posts_item}>
                             Post 3
                         </div>
                     </div>

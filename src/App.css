@@ -9,52 +9,6 @@
 
 }
 
-.header {
-    grid-area: header;
-    display: flex;
-    align-items: center;
-    background: #0bb6ff;
-    line-height: 60px;
-    vertical-align: center;
-}
-
-.image-1 {
-    height: 60px;
-    width: 60px;
-    background: cadetblue;
-
-}
-
-.logo_img {
-    height: 50px;
-    width: 50px;
-}
-
-.nav {
-    grid-area: nav;
-    background: #0bb6ff;
-    padding-top: 20px;
-}
-
-.nav-item {
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-
-.nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-
-.content {
-    grid-area: content;
-    background: yellow;
-}
 
 
-.image-2 {
-    height: 300px;
-    width: 600px;
-    background: cadetblue;
-}
+

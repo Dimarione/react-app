@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background: #0bb6ff;
+    padding-top: 20px;
+}
+
+.nav_item {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.nav_link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav_link__active {
+    color: black;
+}
