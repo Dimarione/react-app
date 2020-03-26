@@ -4,7 +4,6 @@ const Profile = () => {
     return (
         <div className='content'>
 
-            {/*it will be image 2*/}
             <div className='image-2'>Image 2</div>
             <div className='person'></div>
 

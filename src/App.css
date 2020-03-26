@@ -11,8 +11,9 @@
 
 .header {
     grid-area: header;
+    display: flex;
+    align-items: center;
     background: #0bb6ff;
-    text-align: center;
     line-height: 60px;
     vertical-align: center;
 }
@@ -24,10 +25,9 @@
 
 }
 
-.logo {
+.logo_img {
     height: 50px;
     width: 50px;
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fpuma-logo.svg&imgrefurl=https%3A%2F%2Fworldvectorlogo.com%2Fru%2Flogo%2Fpuma-logo&tbnid=bzMGPsR7cLLcxM&vet=12ahUKEwiax4zn0aPoAhWRfpoKHdNjDHQQMygCegUIARDjAQ..i&docid=yL8zgpE5apEBlM&w=2500&h=1339&q=logo&ved=2ahUKEwiax4zn0aPoAhWRfpoKHdNjDHQQMygCegUIARDjAQ");
 }
 
 .nav {
@@ -41,7 +41,7 @@
     margin-bottom: 10px;
 }
 
-.nav-item_link {
+.nav-link {
     color: #ffffff;
     text-decoration: none;
     font-family: sans-serif;
